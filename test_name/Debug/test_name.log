@@ -1,0 +1,27 @@
+﻿Build started 2017/8/9 星期三 下午 10:29:52.
+     1>Project "C:\Users\Administrator\Desktop\C++小游戏\贪吃蛇\test_name\test_name\test_name.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\test_name.unsuccessfulbuild".
+       ClCompile:
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp main.cpp Name.cpp
+         Name.cpp
+         main.cpp
+         Game.cpp
+     1>c:\users\administrator\desktop\c++小游戏\贪吃蛇\test_name\test_name\game.cpp(131): warning C4244: 'argument' : conversion from 'double' to 'DWORD', possible loss of data
+         Generating Code...
+       Link:
+         D:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\C++小游戏\贪吃蛇\test_name\Debug\test_name.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\test_name.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\Desktop\C++小游戏\贪吃蛇\test_name\Debug\test_name.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\C++小游戏\贪吃蛇\test_name\Debug\test_name.lib" /MACHINE:X86 Debug\Game.obj
+         Debug\main.obj
+         Debug\Name.obj
+     1>Game.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         test_name.vcxproj -> C:\Users\Administrator\Desktop\C++小游戏\贪吃蛇\test_name\Debug\test_name.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Administrator\Desktop\C++小游戏\贪吃蛇\test_name\Debug\test_name.exe;#1" /manifest Debug\test_name.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\test_name.unsuccessfulbuild".
+         Touching "Debug\test_name.lastbuildstate".
+     1>Done Building Project "C:\Users\Administrator\Desktop\C++小游戏\贪吃蛇\test_name\test_name\test_name.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:37.74
